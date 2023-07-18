@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ========================================= -->
+    <!-- ===================Icon================== -->
+    <link rel="stylesheet" href="asset/font/boxicons/css/boxicons.min.css" />
+    <!-- ========================================= -->
+    <link rel="stylesheet" href="public/css/style.css" />
+    <link rel="stylesheet" href="public/css/animation.css" />
+    <title>service</title>
+  </head>
+
+  <body>
+    <div class="ss_wrapper">
+      <div class="ss_container">
+        <!-- ======================= NAVIGATION ======================= -->
+        <!-- ========================================================== -->
+        <nav class="ss_navigation">
+          <div class="ss_brand">
+            <a class="ss_link" href="#">
+              <span> s<span>Verse</span> </span>
+            </a>
+          </div>
+          <div class="ss_navigation_link">
+            <ul class="ss_ul">
+              <li class="ss_li">
+                <a class="ss_link" href="index.html">
+                  <span> Home </span>
+                  <i class="bx bxs-home"></i>
+                </a>
+              </li>
+              <li class="ss_li">
+                <a class="ss_link" href="about.html">
+                  <span> About </span>
+                  <i class="bx bxs-user"></i>
+                </a>
+              </li>
+              <li class="ss_li">
+                <a class="ss_link" href="portfolio.html">
+                  <span> Portfolio </span>
+                  <i class="bx bxs-briefcase-alt-2"></i>
+                </a>
+              </li>
+              <li class="ss_li">
+                <a class="ss_link" href="service.html">
+                  <span> Service </span>
+                  <i class="bx bx-cog"></i>
+                </a>
+              </li>
+              <li class="ss_li">
+                <a class="ss_link ss_active" href="contact.html">
+                  <span> Conctact </span>
+                  <i class="bx bxs-contact"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="ss_navigation_right">
+            <a href="#contact" class="ss_button ss_link">
+              <i class="bx bx-message-dots"></i>
+              <span>talk to me</span>
+            </a>
+          </div>
+        </nav>
+        <!-- ========================================================== -->
+        <!-- ========================= Service ======================== -->
+        <section class="ss_section">
+          <div class="ss_contact">
+            <div class="ss_contact_content">
+              <div class="ss_contact_form ss_content">
+                <!-- contact us -->
+                <h2 class="ss_second_title">Contact Us</h2>
+                <form id="ss_contact_group" class="ss_contact_group">
+                  <div class="ss_contact_control">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+                  <div class="ss_contact_control">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                  <div class="ss_contact_control">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required />
+                  </div>
+                  <div class="ss_contact_control">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                  </div>
+                  <button type="submit" class="ss_button">
+                    <i class="bx bx-paper-plane"></i>
+                    Send Message
+                  </button>
+                </form>
+              </div>
+              <div id="contactInfo" class="ss_cantact_info ss_content">
+                <div class="ss_contact_info_title">
+                  <h1 class="ss_second_title">Are you interested in me and want to collaborate?</h1>
+                </div>
+                <div class="ss_second_info_action">
+                  <span id="actionInfo" class="ss_button">Contact Now</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =============================================================== -->
+        <!-- ===============================POPUP=========================== -->
+        <!-- =============================================================== -->
+
+        <div class="ss_popup" id="ss_popup">
+          <div class="ss_popup_content">
+            <div class="ss_content">
+              <div class="ss_main">
+                <div class="ss_main_head">
+                  <h1 class="ss_main_title">Thank you for contacting me</h1>
+                </div>
+              </div>
+              <div class="ss_action_site">
+                <span class="ss_link" id="ss_for_close_popup" onclick="closePopupFunc()">
+                  <i class="bx bx-x ss_icon_size"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ========================================================== -->
+      <!-- =========================== Footer ======================= -->
+      <footer>
+        <div class="ss_footer">
+          <p>&#169;2023 Hak Cipta oleh s<span>Verse</span>. Seluruh konten di situs web ini dilindungi oleh undang-undang hak cipta.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="public/js/main.js"></script>
+  </body>
+</html>
